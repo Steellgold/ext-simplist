@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Simplist in the New Tab",
+  "version": "1.0",
+  "description": "When you open a new tab, you get the simplest page possible.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "200": "icons/200.png",
+    "128": "icons/128.png",
+    "64": "icons/64.png",
+    "48": "icons/48.png",
+    "32": "icons/32.png"
+  }
+}
